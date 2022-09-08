@@ -20,7 +20,7 @@ func New(e *echo.Echo, usecase user.UsecaseInterface) {
 	e.GET("/users", handler.GetAll)
 	e.POST("/users", handler.PostData)
 	e.POST("/hello", handler.GetAll)
-	e.GET("/test", handler.GetAll)
+	e.GET("/coba", handler.GetAll)
 
 }
 
