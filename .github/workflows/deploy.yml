@@ -18,7 +18,7 @@ jobs:
           key: ${{ secrets.KEY }}
           port: ${{ secrets.PORT }}
           script: |
-            cd/home/ubuntu/alta-be11-cicd
+            cd /home/ubuntu/alta-be11-cicd
             git pull origin main
             docker stop be11Api
             docker rm be11Api
